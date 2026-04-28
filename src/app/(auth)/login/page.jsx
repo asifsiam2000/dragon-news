@@ -31,7 +31,7 @@ const LoaginPage = () => {
       callbackURL: "/",
     });
     if (error) {
-      alert("Your Account Alreay Exis");
+      alert(error.message);
     } else {
       alert("Login SuccessFully");
     }
